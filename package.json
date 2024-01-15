@@ -1,0 +1,20 @@
+{
+  "name": "steggy-app",
+  "version": "1.0.0",
+  "description": "steganography application for hiding files in image",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "zowell",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.1.1",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "file-type": "16.5.4",
+    "fs": "^0.0.1-security",
+    "steggy": "https://github.com/alexandrov-vasiliy/steggy/tarball/master"
+  }
+}

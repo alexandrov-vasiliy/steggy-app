@@ -1,0 +1,34 @@
+.tabs-container {
+    width: 100%;
+}
+
+.tabs {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--body-bg);
+    user-select: none;
+}
+
+.tab:hover {
+    background-color: #ccc;
+}
+
+.tab.active {
+    background-color: var(--acent-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.content {
+    padding: 20px;
+    background-color: var(--body-bg);
+    border: 1px solid #ddd;
+}
